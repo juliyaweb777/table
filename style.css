@@ -1,0 +1,91 @@
+/* table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+    margin: auto;
+}
+th,td{
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(35, 35, 35);
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.price{
+    width: 820px;
+    margin: 50px auto;
+    color: white;
+    border-collapse: collapse;   
+}
+th,td{
+    border: 1px solid gray;
+    
+}
+.price th{
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+td:not(.first-td){
+    padding: 10px 30px;
+    text-align: center;
+}
+.first-td{
+    padding-left: 10px;
+    text-align: left;
+}
+#one{
+    padding-left: 10px;
+    background-color: white;
+    color: rgb(35, 35, 35);
+}
+.price button{
+    width: 140px;
+    height: 40px;
+    background-color: #ea3c45;
+    border: none;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+}
+.orange{
+    background-color: #ff9b00;
+}
+.red{
+    background-color: #ea3c45;
+}
+.blue{
+    background-color: #07b8c7;
+}
+.orange-text{
+    color:#ff9b00;
+    font-weight: bold;
+    font-size: 20px;
+}
+.red-text{
+   color: #ea3c45;
+   font-weight: bold;
+   font-size: 20px; 
+}
+.blue-text{
+    color: #07b8c7;
+    font-weight: bold;
+    font-size: 20px;
+}
+.fa-check{
+    color:#ff9b00;
+    font-weight: bold;
+    font-size: 25px; 
+}
